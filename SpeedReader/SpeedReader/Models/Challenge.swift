@@ -11,8 +11,8 @@ import Foundation
 class Challenge {
     let title: String
     let story: String
+    var score: Int = 0
     let questions: [Question] = []
-    let answers: [Answer] = []
     
     init(title: String, story: String) {
         self.title = title

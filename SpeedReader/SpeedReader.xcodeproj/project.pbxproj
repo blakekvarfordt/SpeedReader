@@ -14,6 +14,8 @@
 		639613422320E12A000987B4 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639613412320E12A000987B4 /* Challenge.swift */; };
 		639613482320E38F000987B4 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639613472320E38F000987B4 /* Question.swift */; };
 		6396134A2320E3B6000987B4 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639613492320E3B6000987B4 /* Answer.swift */; };
+		6396134C2320E769000987B4 /* ChallengeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396134B2320E769000987B4 /* ChallengeController.swift */; };
+		6396134E2320EE06000987B4 /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396134D2320EE06000987B4 /* QuestionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		639613412320E12A000987B4 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		639613472320E38F000987B4 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		639613492320E3B6000987B4 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		6396134B2320E769000987B4 /* ChallengeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeController.swift; sourceTree = "<group>"; };
+		6396134D2320EE06000987B4 /* QuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 		6396133C2320D2D6000987B4 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6396134B2320E769000987B4 /* ChallengeController.swift */,
+				6396134D2320EE06000987B4 /* QuestionController.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -181,10 +187,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6396134C2320E769000987B4 /* ChallengeController.swift in Sources */,
 				639613482320E38F000987B4 /* Question.swift in Sources */,
 				639613292320D294000987B4 /* AppDelegate.swift in Sources */,
 				639613422320E12A000987B4 /* Challenge.swift in Sources */,
 				6396134A2320E3B6000987B4 /* Answer.swift in Sources */,
+				6396134E2320EE06000987B4 /* QuestionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

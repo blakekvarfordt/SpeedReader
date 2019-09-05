@@ -9,7 +9,7 @@
 import Foundation
 
 class Answer {
-    let letter: String
+    let letter: String?
     
     init(letter: String) {
         self.letter = letter

@@ -13,12 +13,14 @@ class Question {
     let aText: String
     let bText: String
     let cText: String
+    let answer: Answer
     
-    init(questionText: String, aText: String, bText: String, cText: String) {
+    init(questionText: String, aText: String, bText: String, cText: String, answer: Answer) {
         self.questionText = questionText
         self.aText = aText
         self.bText = bText
         self.cText = cText
+        self.answer = answer
     }
     
 }
